@@ -1,0 +1,24 @@
+// 混合
+.m-d(@num: 15px, @d: left)
+{
+    margin-@{d}: @num;
+}
+.p-d(@num: 15px, @d: left)
+{
+    padding-@{d}: @num;
+}
+// line-height
+.l-h(@num: 20px)
+{
+    height: @num;
+    line-height: @num;
+}
+.b-s(@drct)
+{
+    -webkit-box-shadow: @drct;
+       -moz-box-shadow: @drct;
+            box-shadow: @drct;
+
+        -ms-box-shadow: @drct;
+         -o-box-shadow: @drct;
+}

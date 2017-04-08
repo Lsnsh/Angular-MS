@@ -1,0 +1,70 @@
+{
+  "errno": 0,
+  "data": [
+    {
+      "isTitle": true,
+      "type": "Navigation",
+      "childMenu": [],
+      "bellNum": 0
+    },
+    {
+      "isTitle": false,
+      "iconClass": "glyphicon-stats",
+      "type": "Dashboard",
+      "childMenu": [],
+      "bellNum": 0,
+      "cls": "text-sl",
+      "fw": "font-bold",
+      "link": "#/app/dashboard"
+    },
+    {
+      "isLine": true
+    },
+    {
+      "isTitle": true,
+      "type": "Manager",
+      "childMenu": [],
+      "bellNum": 0
+    },
+    {
+      "isTitle": false,
+      "iconClass": "glyphicon-th",
+      "type": "Student",
+      "childMenu": [
+        {
+          "type": "Student List",
+          "bellNum": 0,
+          "link": "#/app/studentlist/1"
+        },
+        {
+          "type": "Create Student",
+          "bellNum": 0,
+          "link": "#/app/createstudent"
+        }
+      ],
+      "bellNum": 0,
+      "bellCls": "bg-ql",
+      "cls": "text-hs"
+    },
+    {
+      "isTitle": false,
+      "iconClass": "icon-user",
+      "type": "Teacher",
+      "childMenu": [
+        {
+          "type": "Teacher List",
+          "bellNum": 0,
+          "link": "#/app/teacherlist/1"
+        },
+        {
+          "type": "Create Teacher",
+          "bellNum": 0,
+          "link": "#/app/createteacher"
+        }
+      ],
+      "bellNum": "0",
+      "bellCls": "bg-ls",
+      "cls": "text-hs"
+    }
+  ]
+}
