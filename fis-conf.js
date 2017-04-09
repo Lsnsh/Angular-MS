@@ -6,8 +6,8 @@ fis.match('*', {
 		// 当前设置为php服务器路径下
 		to: 'D:/Program Files/ApacheServer/htdocs/ngMs-static'
 	})
-})
-// 设置编译后的文件路径为相对路径
+});
+// // 设置编译后的文件路径为相对路径
 fis.hook('relative');
 // 让所有文件，都使用相对路径。
 fis.match('**', { relative: true });
@@ -16,4 +16,4 @@ fis.match('**', { relative: true });
 fis.match('**/app.less', {
 	parser: 'less',
 	rExt: '.css'
-})
+});
