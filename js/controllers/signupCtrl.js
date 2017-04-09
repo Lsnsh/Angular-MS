@@ -8,7 +8,7 @@ function signupCtrl($scope, $http, $location) {
 	$scope.goSignUp = function() {
 		// 注册请求
 		$http
-			.post('action/regist.php', $scope.data, {
+			.post('action/signup.php', $scope.data, {
 				headers: {'Content-Type':'application/x-www-form-urlencoded'},
 				transformRequest: function(obj){
 				    var str=[];

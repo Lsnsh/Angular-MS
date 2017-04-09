@@ -27,7 +27,6 @@ function signinCtrl($scope, $http, $location) {
 	$scope.goSignIn = function(e) {
 		$http
 			// 发送登录异步请求，传递登录信息
-			// .post('action/login.php', $scope.data, {
 			.post('action/signin.php', $scope.data, {
 				// 指定请求头
 				headers: {'Content-Type':'application/x-www-form-urlencoded'},

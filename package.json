@@ -1,0 +1,15 @@
+{
+  "name": "ng-ms",
+  "version": "1.0.0",
+  "description": "ng-ms-demo",
+  "author": "xinzehe <a947351686@163.com>",
+  "private": true,
+  "scripts": {
+  },
+  "dependencies": {
+    "fis3": "^3.4.32",
+    "fis3-deploy-local-deliver": "^1.0.0",
+    "fis3-hook-relative": "^2.0.0",
+    "fis3-parser-less": "^2.5.3"
+  }
+}
