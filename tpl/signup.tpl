@@ -10,14 +10,17 @@
 						'has-success': registerForm.username.$dirty && registerForm.username.$valid
 					}"
 					>
-					<input type="text" class="form-control" ng-required="true" ng-model="data.username" name="username" id="user_name" placeholder="Username" ng-maxLength="16" ng-minLength="3">
+					<input type="text" class="form-control" ng-required="true" ng-model="data.username" name="username" id="user_name" placeholder="Username (3 ~ 16)" ng-maxLength="16" ng-minLength="3">
 					<span class="glyphicon  form-control-feedback" aria-hidden="true"
 					ng-class="{
 						'glyphicon-remove': registerForm.username.$dirty && registerForm.username.$invalid || signStatus,
 						'glyphicon-ok': registerForm.username.$dirty && registerForm.username.$valid
 					}"
 					></span>
-					<span ng-bind="errInfo" class="text-red"></span>
+				</div>
+
+				<div class="danger-info">
+					<span class="text-danger" ng-bind=""></span>
 				</div>
 
 				<div class="form-group col-sm-12"
@@ -26,7 +29,7 @@
 						'has-success': registerForm.password.$dirty && registerForm.password.$valid
 					}"
 					>
-					<input type="password" class=" form-control" ng-required="true" ng-model="data.password" name="password" id="pass_word" placeholder="Password" ng-maxLength="30" ng-minLength="6">
+					<input type="password" class=" form-control" ng-required="true" ng-model="data.password" name="password" id="pass_word" placeholder="Password (6 ~ 30)" ng-maxLength="30" ng-minLength="6">
 					<span class="glyphicon form-control-feedback" aria-hidden="true"
 					ng-class="{
 						'glyphicon-remove': registerForm.password.$dirty && registerForm.password.$invalid,
@@ -76,7 +79,7 @@
 			</form>
 			<div class="copyright text-qh">
 				<p>Web app framework base on Bootstrap and AngularJS</p>
-				<span>© 2014</span>
+				<span>© 2017</span>
 			</div>
 		</div>
 	</div>

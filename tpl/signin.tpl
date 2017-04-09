@@ -57,7 +57,7 @@
 			</form>
 			<div class="copyright text-qh">
 				<p>Web app framework base on Bootstrap and AngularJS</p>
-				<span>© 2014</span>
+				<span>© 2017</span>
 			</div>
 		</div>
 	</div>

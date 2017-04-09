@@ -9,6 +9,8 @@ session_start();
 $_SESSION['username'] = $_POST['username'];
 $_SESSION['password'] = $_POST['password'];
 
+setcookie('username', $_POST['username']);
+setcookie('password', $_POST['password']);
 $status = '注册成功!';
 
 // 返回结果
