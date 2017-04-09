@@ -1,4 +1,4 @@
-# ng-ms-demo
+# ng-ms
 基于angular实现，后台管理系统
 
 ### 构建
