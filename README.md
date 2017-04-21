@@ -49,7 +49,6 @@ fis.match('*', {
 
 #### 响应式页
     媒体查询配合BootStrap响应式工具类实现。
-<img src="./preview/page_mobile.png" alt="预览效果迷路了" title="">
 
 ### 技术栈
 <pre>
