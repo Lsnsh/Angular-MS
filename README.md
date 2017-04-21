@@ -22,8 +22,34 @@ fis.match('*', {
 });
 ```
 ## 预览
-<img src="./preview/signin.png" alt="" style="width:200px;">
-<img src="./preview/signin.png" alt="" style="width:200px;">
+
+#### 登录页
+    用户登录使用静态数据，内置两个账户：
+        username: Tom,      password: 123456
+        username: Lindy,    password: 123456
+<img src="./preview/signin.png" alt="预览效果迷路了" title="">
+<img src="./preview/signin_error.png" alt="预览效果迷路了" title="">
+
+#### 注册页
+    注册是写入到cookie中，未设置超时时间，关闭浏览器后自动过期。
+<img src="./preview/signup.png" alt="预览效果迷路了" title="">
+<img src="./preview/signup_error.png" alt="预览效果迷路了" title="">
+
+#### 图表页
+    使用highcharts图表库，绘制直线、堆叠条形、圆饼图等。
+<img src="./preview/dashboard.png" alt="预览效果迷路了" title="">
+
+#### 列表页
+    信息列表，实现了分页功能。
+<img src="./preview/stu_list.png" alt="预览效果迷路了" title="">
+
+#### 创建页
+    学生表单信息创建。
+<img src="./preview/create_stu.png" alt="预览效果迷路了" title="">
+
+#### 响应式页
+    媒体查询配合BootStrap响应式工具类实现。
+<img src="./preview/page_mobile.png" alt="预览效果迷路了" title="">
 
 ### 技术栈
 <pre>
