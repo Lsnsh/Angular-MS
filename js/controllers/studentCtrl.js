@@ -15,7 +15,8 @@ function createStudentCtrl($scope, $http, $location) {
 	$scope.data = {
 		specialty: 'tj',
 		branch: 'tj',
-		grade: 'd1'
+		grade: 'd1',
+		gender: 'male'
 	}
 
 	// 创建学生事件

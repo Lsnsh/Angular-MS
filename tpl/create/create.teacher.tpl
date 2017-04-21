@@ -20,13 +20,20 @@
 						<div class="col-sm-2">
 							<label class="" for="">Gender</label>
 						</div>
-						
+
 						<div class="col-sm-6">
-							<label for="male">
-							<input  type="radio" id="male" name="gender" checked ng-model="data.gender">
-							male</label>
-							<label for="female"><input  type="radio" id="female" name="gender" ng-model="data.gender">
-							female</label>
+							<label for="male" class="radio-label">
+							<input  type="radio" id="male" name="gender" ng-model="data.gender" value="male"><i
+							ng-class="{
+							'checked': data.gender === 'male',
+							'b-d-sl': data.gender === 'male'
+							}"></i>男</label>
+
+							<label for="female" class="radio-label"><input  type="radio" id="female" name="gender" ng-model="data.gender" value="female"><i
+							ng-class="{
+							'checked': data.gender === 'female',
+							'b-d-sl': data.gender === 'female'
+							}"></i>女</label>
 						</div>
 					</div>
 

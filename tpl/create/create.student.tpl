@@ -22,11 +22,18 @@
 						</div>
 						
 						<div class="col-sm-6">
-							<label for="male">
-							<input  type="radio" id="male" name="gender" checked ng-model="data.gender">
-							male</label>
-							<label for="female"><input  type="radio" id="female" name="gender" ng-model="data.gender">
-							female</label>
+							<label for="male" class="radio-label">
+							<input  type="radio" id="male" name="gender" ng-model="data.gender" value="male"><i
+							ng-class="{
+							'checked': data.gender === 'male',
+							'b-d-sl': data.gender === 'male'
+							}"></i>男</label>
+
+							<label for="female" class="radio-label"><input  type="radio" id="female" name="gender" ng-model="data.gender" value="female"><i
+							ng-class="{
+							'checked': data.gender === 'female',
+							'b-d-sl': data.gender === 'female'
+							}"></i>女</label>
 						</div>
 					</div>
 
@@ -55,7 +62,7 @@
 						</div>
 						
 						<div class="col-sm-6">
-							<select class="form-control"  id="Branch" ng-model="data.branch">
+							<select class="form-control"  id="Branch" ng-model="data.branch" name="branch">
 								<option value="rj">软件分院</option>
 								<option value="tj">统计分院</option>
 								<option value="kj">会计分院</option>
@@ -73,7 +80,7 @@
 						</div>
 						
 						<div class="col-sm-6">
-							<select class="form-control" id="Grade" ng-model="data.grade">
+							<select class="form-control" id="Grade" ng-model="data.grade" name="grade">
 								<option value="d1">大一</option>
 								<option value="d2">大二</option>
 								<option value="d3">大三</option>
@@ -91,7 +98,7 @@
 						</div>
 						
 						<div class="col-sm-6">
-							<textarea class="form-control" id="Introduction" rows="3" placeholder="描述" ng-model="data.introduction"></textarea>
+							<textarea class="form-control" id="Introduction" rows="3" placeholder="描述" ng-model="data.introduction" name="introduction"></textarea>
 						</div>
 					</div>
 

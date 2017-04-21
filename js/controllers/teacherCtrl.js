@@ -17,7 +17,8 @@ function createTeacherCtrl($scope, $http, $location) {
 		specialty: 'tj',
 		branch: 'tj',
 		education: 'bk',
-		post: 'jx'
+		post: 'jx',
+		gender: 'male'
 	}
 
 	// 创建用户事件

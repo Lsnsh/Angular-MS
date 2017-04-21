@@ -4,7 +4,7 @@
 <!-- /navbar -->
 
 <!-- sidebar -->
-<div class="app-sidebar" ng-include="'tpl/public/sidebar.tpl'" ng-controller="sidebarCtrl"></div>
+<div class="app-sidebar animated" ng-include="'tpl/public/sidebar.tpl'" ng-controller="sidebarCtrl"></div>
 <!-- /sidebar -->
 
 <!-- content -->

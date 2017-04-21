@@ -2,6 +2,7 @@
 <div class="navbar-header header-title">
 	<a href="#/"><i class="fa fa-btc"></i><span>AngularMs</span></a>
 </div>
+<div class="menu-btn" ng-click="events.toggleMenu($event)"></div>
 <!-- 右侧导航栏 -->
 <div class="nav-collaspe box-shadow header-bar hidden-xs">
 	<!-- 搜索框 -->
@@ -64,7 +65,6 @@
 				<a href="action/logout.php" class="list-group-item">Logout</a>
 			</ul>
 			</div>
-
 		</li>
 	</ul>
 </div>
