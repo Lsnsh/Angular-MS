@@ -22,8 +22,8 @@ fis.match('*', {
 });
 ```
 ## 预览
-<div style="height:450px;"><img src="./preview/signin.png" alt="" style="width:200px;"></div>
-<div style="height:450px;"><img src="./preview/signin.png" alt="" style="width:200px;"></div>
+<img src="./preview/signin.png" alt="" style="width:200px;">
+<img src="./preview/signin.png" alt="" style="width:200px;">
 
 ### 技术栈
 <pre>
